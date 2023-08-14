@@ -9,6 +9,8 @@ int main() {
         printf("指定された文字列は同じです。\n");
     } else {
         printf("指定された文字列は異なります。\n");
+
+        jin
     }
 
     return 0;
