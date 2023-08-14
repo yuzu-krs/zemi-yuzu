@@ -13,7 +13,6 @@ int main(int argc, char* argv[]) {
         fprintf(stderr, "入力ファイル %s を開く際にエラーが発生しました．\n",
                 argv[1]);
         exit(1);
-        // wafeawefwaef
     }
 
     int c;
@@ -35,6 +34,8 @@ int main(int argc, char* argv[]) {
         printf("%c", inputData[i]);
         i++;
     }
+
+    printf("aa");
 
     fclose(inputFile);
 
